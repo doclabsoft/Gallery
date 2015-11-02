@@ -1,0 +1,35 @@
+.DD--gallery
+{
+	position: relative;
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;	
+    box-sizing: border-box;
+}
+.DD--gallery .DD--gallery--viewport
+{
+	cursor: move;
+    cursor: -webkit-grab;
+    cursor: grab;
+    overflow: hidden;
+    position: relative;
+    height: 100%;    
+}
+.DD--gallery .DD--gallery--canvas
+{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.DD--gallery .DD--slide
+{
+    width: 100%;
+    background: #bbb;
+}
+.DD--gallery .DD--slide.selected
+{
+	background: #6286B3;
+}
